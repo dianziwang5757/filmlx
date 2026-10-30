@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>詞影 FilmLex</title>
+<meta name="description" content="詞影 FilmLex — 看電影學英文的生詞本，隱私政策與說明">
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh;
+    display: grid; place-items: center;
+    padding: 40px 22px;
+    font-family: -apple-system, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    background: #FFD60A; color: #141414;
+  }
+  .card {
+    width: 100%; max-width: 560px;
+    background: #fff; border-radius: 22px;
+    padding: 40px 32px 34px;
+    box-shadow: 0 18px 50px rgba(80, 62, 0, .18);
+  }
+  .wordmark {
+    display: inline-block; background: #FFD60A; color: #141414;
+    font-size: 1.9rem; font-weight: 800; letter-spacing: .04em;
+    padding: 6px 16px; border-radius: 14px; line-height: 1.25;
+  }
+  h1 { font-size: 1.15rem; margin: 22px 0 6px; }
+  .sub { color: #66666E; font-size: .88rem; line-height: 1.8; margin: 0 0 26px; }
+  .links { display: grid; gap: 10px; }
+  a.item {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    padding: 15px 18px; border-radius: 14px;
+    background: #F7F7F8; color: #141414; text-decoration: none;
+    font-size: .92rem; font-weight: 600;
+    transition: background .15s, transform .15s;
+  }
+  a.item:hover { background: #FFF7D6; transform: translateY(-1px); }
+  a.item span.arrow { color: #9A9AA2; font-weight: 400; }
+  .meta {
+    margin-top: 26px; padding-top: 18px; border-top: 1px solid #ECECEE;
+    color: #9A9AA2; font-size: .76rem; line-height: 1.9;
+  }
+  .meta a { color: #0a6cff; text-decoration: none; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #14140f; color: #f2f2f4; }
+    .card { background: #1b1b20; box-shadow: none; }
+    a.item { background: #24242b; color: #f2f2f4; }
+    a.item:hover { background: #2e2e37; }
+    .sub, .meta { color: #9a9aa2; }
+    .meta { border-color: #2c2c34; }
+  }
+</style>
+</head>
+<body>
+  <main class="card">
+    <div class="wordmark">詞影</div>
+
+    <h1>FilmLex — 看電影，把生詞攢下來</h1>
+    <p class="sub">
+      一個給「看電影學英文」的人用的生詞本。<br>
+      查詞、建卡、按遺忘曲線複習，資料全部留在你自己的手機上。
+    </p>
+
+    <div class="links">
+      <a class="item" href="./privacy-policy.html">
+        隱私政策 / Privacy Policy <span class="arrow">→</span>
+      </a>
+      <a class="item" href="https://play.google.com/store/apps/details?id=com.ciying.filmlx">
+        Google Play 商店頁面 <span class="arrow">→</span>
+      </a>
+      <a class="item" href="mailto:cheche2021430@gmail.com">
+        聯絡開發者 <span class="arrow">→</span>
+      </a>
+    </div>
+
+    <div class="meta">
+      開發者：詞影 FilmLex ｜
+      <a href="mailto:cheche2021430@gmail.com">cheche2021430@gmail.com</a><br>
+      本網站僅用於提供 App 的隱私政策與說明，不收集任何訪客資料。
+    </div>
+  </main>
+</body>
+</html>
